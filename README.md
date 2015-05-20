@@ -16,7 +16,7 @@ Installing
 
 In your Gemfile add the following for the latest released version:
 
-    gem 'spree_sale_price', github: 'Neschur/spree-sale-pricing', branch: '3-0-stable'
+    gem 'spree_sale_price', github: 'lsirivong/spree-sale-pricing', branch: '2-4-stable'
 
 Install the Gem:
 
@@ -24,7 +24,7 @@ Install the Gem:
 
 Copy the migrations in your app:
 
-    bundle exec rake railties:install:migrations
+    rake spree_sale_price:install:migrations
 
 Run database migrations in your app:
 
